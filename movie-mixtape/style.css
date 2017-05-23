@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+html {
+  box-sizing: border-box;
+  height: 100%;
+  letter-spacing: 1px;
+  background: url(images/background__blue_sky.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.container-fluid {
+  background: url(images/background__blue_sky.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive !important;
+  overflow-x: hidden !important;
+  max-width: 100%;
+}
+
+
+body.container-fluid {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  height: 100%;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+.div-info {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.responsive-title {
+  display: none;
+}
+.howto-container {
+  color: white;
+  background-color: #f584ff;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.howto-container p {
+  padding: 20px;
+}
+
+.movie-mixtape-title {
+  padding-top: 20px;
+  font-size: 60px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.header-star {
+  color: #ff60a1;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.form {
+  margin-left: 75px;
+  margin-right: 75px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form__input {
+  height: 50px !important;
+  border: 0px !important;
+  border-radius: 0 !important;
+}
+
+#inputArtist {
+  font-size: 20px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff60a1;
+  text-align: center;
+  width: 700px;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #ff60a1 !important;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ff60a1 !important;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ff60a1 !important;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ff60a1 !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ff60a1 !important;
+}
+
+.button {
+  border-radius: 30px !important;
+  height: 40px !important;
+  /*width: 120px !important;*/
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 15px !important;
+  background-color: #fdeb5a !important;
+  border: 3px solid #ff60a1 !important;
+  color: #ff60a1 !important;
+}
+
+.form-n-button {
+  margin: 25px 0 25px 0;
+}
+
+.not_set {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.title {
+  padding-top: 25px;
+  font-size: 60px;
+  color: #ff60a1;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: underline;
+}
+
+.poster {
+  text-align: center;
+  height: 900px;
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Press Start 2P', cursive;
+  color: #ff60a1;
+}
+
+.form-output-container {
+  background-color: #fdeb5a;
+  margin-top: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (max-width: 1310px) {
+  #inputArtist {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1110px) {
+
+  .title {
+    font-size: 35px;
+    padding-top: 100px;
+  }
+  .howto-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .form-output-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media (max-width: 810px) {
+  html {
+    background: none !important;
+    background-color: #fdeb5a !important;
+    width: 100%;
+  }
+  .container-fluid {
+    padding: 0px !important;
+    background: none !important;
+    background-color: #fdeb5a !important;
+  }
+  .responsive-title {
+    display: block;
+    text-align: center;
+    background-color: #68b6f9;
+  }
+  .responsive-title h1 {
+    padding: 10px 0 10px 0;
+    margin: 0;
+    color: white;
+  }
+  .movie-mixtape-title {
+    display: none;
+  }
+  .howto-container {
+    color: white;
+    background-color: #f584ff;
+    margin: 0;
+    box-shadow: 0 0 0;
+    margin-bottom: 0 !important;
+  }
+  .howto-container p{
+    margin-bottom: 0 !important;
+  }
+  .form-output-container {
+    margin: 0;
+    box-shadow: 0 0 0;
+    height: 100%;
+  }
+  .form-n-button {
+    padding: 0 !important;
+  }
+  .title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+@media (max-width: 767px) {
+
+  #inputArtist {
+    width: 100%;
+    margin-top: 0 !important;
+  }
+  .form-n-button {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .button {
+    margin-top: 10px;
+  }
+
+}
+@media (max-width: 767px) {
+  .title {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .poster {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (max-width: 550px) {
+  .responsive-title h1 {
+    font-size: 20px;
+  }
+  .howto-container p {
+    font-size: 10px;
+  }
+  .description {
+    font-size: 15px;
+  }
+}

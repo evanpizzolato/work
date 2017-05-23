@@ -1,0 +1,72 @@
+# Movie Mixtape
+
+School project combining 2 APIs.
+APIs used: TMDb & Gracenote
+
+Allows users to enter a musical artist and based off their genre, output a related movie.
+
+
+
+## Authors
+
+* **Evan Pizzolato** - *Initial work* - [GitHub](https://github.com/evanpizzolato) | [Portfolio](https://evanpizzolato.com)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
