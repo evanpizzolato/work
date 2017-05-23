@@ -9,7 +9,7 @@ Allows users to enter a musical artist and based off their genre, output a relat
 
 ## Authors
 
-* **Evan Pizzolato** - *Initial work* - [GitHub](https://github.com/evanpizzolato) | [Portfolio](https://evanpizzolato.com)
+* **Evan Pizzolato** - *Initial work* - [GitHub](https://github.com/evanpizzolato) | [Portfolio](http://evanpizzolato.com)
 
 
 
